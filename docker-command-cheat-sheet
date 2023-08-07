@@ -1,0 +1,49 @@
+# Basic command
+  dcker info #Display system wide infrmation
+  docker --version 
+  docker -v
+  
+  docker --help
+  docker COMMAND --help
+  docker [options] Command 
+  
+
+  
+  # Docker image COMMAND
+  # Manage images
+  
+  docker images
+  docker images -a
+  
+  docker image list
+  docker image ls
+  docker image pull ubuntu:latest
+  docker image push < image name>
+  docker image rm <image name or IDs >
+  docker image remove <image IDs>
+  docker rmi
+  docker image rm -f 
+  docker rmi <image IDs>
+  docker image prune 
+  docker image prune -a
+  docker image build -t < name of the image> < PATH>
+
+#Docker container run
+
+  docker run 
+  docker container run
+  docker run -it --rm --name my-alpine alpine bin/ash
+  docker run -it --rm --name my-alpine alpine bin/sh
+  
+  
+  
+  
+  
+  
+  
+
+  # Container
+  
+  doocker ps 
+  docker ps -a
+  docker run <image name>
